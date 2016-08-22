@@ -1,4 +1,51 @@
-header {
-  position: fixed; }
+/**{
+    outline: 1px #fff solid;
+}*/
+main {
+  /* margintop to leave space for fixed navigation bar */
+  margin-top: 40px;
+  /* background color */
+  background: #262626;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#262626, #595959);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#262626, #595959);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#262626, #595959);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#262626, #595959);
+  /* Standard syntax */ }
+  main .title-common, main .big-title, main .small-title {
+    color: white;
+    /* font-family: "bebas-neue", "Sans-serif"; */
+    text-align: center; }
+  main .big-title {
+    font-size: 6rem;
+    font-weight: 400; }
+  main .small-title {
+    font-size: 4rem;
+    font-weight: 200; }
+  main #website-intro, main #report-intro {
+    margin-top: 2rem;
+    padding-bottom: 4rem; }
+  main img {
+    display: block;
+    width: 100%;
+    margin: auto; }
+  main .content {
+    border-left: 0.5rem solid white;
+    margin-top: 2rem; }
+  main p {
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+    margin-right: 15%; }
+  main p:last-child {
+    margin-bottom: 0; }
+  main a img {
+    width: 5%;
+    margin-left: 0; }
+
+footer {
+  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
