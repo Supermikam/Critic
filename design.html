@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Critic | Design</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    
+    <link rel="stylesheet" href="asset/design.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
@@ -22,12 +24,37 @@
               <li><a href="copyright.html">Copyright</a></li>
               <li><a href="technique.html">Technique</a></li>
               <li><a href="highlights.html">Highlights</a></li>
-              <li><a href="reference.html">Reference</a></li> 
+              <li><a href="reference.html">Reference</a></li>
+              <li><a href="principle.html">Design Principle</a></li> 
             </ul>
           </div>
         </nav>
     </header>
-
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2" id="left-tab">
+            <div class="tab" point-to="color">Color</div>
+            <div class="tab" point-to="font-anylise">Font</div>
+            <div class="tab" point-to="page-layout">Layout</div>
+          </div>
+          
+          <div class="col-md-10 col-md-offset-2" id="content">
+            <div class="inner-content" id="color">
+              <h1>This is the beginning</h1>
+              
+            </div>
+            <div class="inner-content" id="font-anylise">
+              <h1>This is the beginning</h1>
+            </div>
+            
+            <div class="inner-content" id="page-layout">
+              <h1>This is the beginning</h1>
+            </div>
+          </div>
+          </div>
+        </div>
+    </main>
     <footer>
         Copyright &#169 2016 Created by Ruohan Liu All Rights Reserved
     </footer>

@@ -1,0 +1,19 @@
+
+$dark-grey: #262626;
+$light-grey: #666666;
+$content-text-color: #cccccc;
+
+main{
+    /* margintop to leave space for fixed navigation bar */
+    
+  /* background color */    
+  background:  $dark-grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($dark-grey, $light-grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($dark-grey, $light-grey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($dark-grey, $light-grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($dark-grey, $light-grey); /* Standard syntax */
+}
+
+footer{
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+@import 'common';
+
+main{
+  
+  margin-top: 40px;
+  #left-tab{
+    position: fixed;
+    top: 4rem;
+    left: 0;
+
+  }
+  
+  #content{
+    padding: 0;
+  }
+  
+  
+ .tab{
+   text-align: center;
+   font-size: 2.5rem;
+   color: #cccccc;
+   font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+   padding: 0.5rem 0rem 0.5rem 0rem;
+   margin: 0.3rem 1rem 0.3rem 1rem;
+   
+ }
+ 
+ .active{
+   @extend .tab:hover;
+ }
+  
+  .tab:hover{
+    color: #fff;
+    background: #000;
+  }
+  
+  
+.inner-content{
+  height: 4000px;
+}
+
+#color{
+  background: #80bfff;
+}
+
+#font-anylise{
+  background: #5dd55d;
+}
+  
+#page-layout{
+  background: #ff944d;
+}
+}
