@@ -19,7 +19,7 @@ main {
   margin-top: 40px; }
   main #left-tab {
     position: fixed;
-    top: 4rem;
+    top: 60px;
     left: 0; }
   main #content {
     padding: 0; }

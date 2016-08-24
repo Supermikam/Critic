@@ -5,7 +5,7 @@ main{
   margin-top: 40px;
   #left-tab{
     position: fixed;
-    top: 4rem;
+    top: 60px;
     left: 0;
 
   }
@@ -25,14 +25,16 @@ main{
    
  }
  
- .active{
-   @extend .tab:hover;
- }
+
   
   .tab:hover{
     color: #fff;
     background: #000;
   }
+  
+  .active{
+   @extend .tab:hover;
+ }
   
   
 .inner-content{
