@@ -34,12 +34,36 @@ main {
     color: #fff;
     background: #000; }
   main .inner-content {
-    height: 4000px; }
-  main #color {
-    background: #80bfff; }
-  main #font-anylise {
-    background: #5dd55d; }
-  main #page-layout {
-    background: #ff944d; }
+    background: #fff; }
+  main #color #sample-image {
+    border-bottom: 0.3rem solid #222;
+    margin-left: 20%;
+    margin-right: 20%; }
+  main #color img {
+    display: block;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem; }
+  main #color #detail-content {
+    margin-top: 4rem; }
+    main #color #detail-content img {
+      width: 100%;
+      margin-top: 20px;
+      padding-top: 0;
+      border-right: #222 solid 2rem; }
+    main #color #detail-content #two {
+      border-right: #353535 solid 2rem; }
+    main #color #detail-content #three {
+      border-right: #777 solid 2rem; }
+    main #color #detail-content #four {
+      border-right: #fed916 solid 2rem; }
+    main #color #detail-content .row {
+      padding-bottom: 4rem; }
+    main #color #detail-content h1 {
+      font-size: 60px; }
+    main #color #detail-content p {
+      color: #353535;
+      margin: 1rem 0rem; }
 
 /*# sourceMappingURL=design.css.map */

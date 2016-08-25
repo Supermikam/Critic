@@ -38,18 +38,70 @@ main{
   
   
 .inner-content{
-  height: 4000px;
+  background: #fff;
 }
 
 #color{
-  background: #80bfff;
+  
+  #sample-image{
+    
+    border-bottom: 0.3rem solid #222;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+  
+  img{
+    display: block;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+  }
+
+  #detail-content{
+    margin-top: 4rem;
+    
+    img{
+      width: 100%;
+      margin-top: 20px;
+      padding-top: 0;
+      border-right: #222 solid 2rem;
+    }
+
+    
+    #two{
+      border-right: #353535 solid 2rem;
+    }
+    
+    #three{
+      border-right: #777 solid 2rem;
+    }
+    
+    #four{
+      border-right: #fed916 solid 2rem;
+    }
+    
+    .row{
+      padding-bottom: 4rem;
+    }
+    
+    h1{
+      font-size: 60px;  
+    }
+    
+    p{
+      color: #353535;
+      margin: 1rem 0rem;
+    }
+    
+    
+  }
 }
 
 #font-anylise{
-  background: #5dd55d;
 }
   
 #page-layout{
-  background: #ff944d;
 }
 }
