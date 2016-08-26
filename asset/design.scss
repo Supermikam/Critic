@@ -16,6 +16,7 @@ main{
   
   
  .tab{
+   cursor: pointer;
    text-align: center;
    font-size: 2.5rem;
    color: #cccccc;
@@ -38,26 +39,33 @@ main{
   
   
 .inner-content{
+  margin-top: 1rem;
   background: #fff;
 }
 
-#color{
-  
-  #sample-image{
+.sample-image{
     
     border-bottom: 0.3rem solid #222;
     margin-left: 20%;
     margin-right: 20%;
     
   }
-  
-  img{
+    img{
     display: block;
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 4rem;
+    max-width: 100%
   }
+  
+
+
+#color{
+  
+
+  
+
 
   #detail-content{
     margin-top: 4rem;
@@ -100,8 +108,30 @@ main{
 }
 
 #font-anylise{
-}
+  text-align: center;
   
+  .font-inner-section{
+    border-bottom: solid #777 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .font-inner-section:last-child{
+    border-bottom: none;
+    
+  }
+  h1{
+    padding-top: 2rem;
+    font-size: 72px;
+  }
+  p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+}
 #page-layout{
 }
 }
