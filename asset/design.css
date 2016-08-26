@@ -68,21 +68,25 @@ main {
     main #color #detail-content p {
       color: #353535;
       margin: 1rem 0rem; }
-  main #font-anylise {
+  main #font-anylise, main #page-layout {
     text-align: center; }
-    main #font-anylise .font-inner-section {
+    main #font-anylise .font-inner-section, main #page-layout .font-inner-section {
       border-bottom: solid #777 0.5rem;
       margin-top: 2rem;
       margin-bottom: 2rem;
       margin-left: 10%;
       margin-right: 10%; }
-    main #font-anylise .font-inner-section:last-child {
+    main #font-anylise .font-inner-section:last-child, main #page-layout .font-inner-section:last-child {
       border-bottom: none; }
-    main #font-anylise h1 {
+    main #font-anylise h1, main #page-layout h1 {
       padding-top: 2rem;
       font-size: 72px; }
-    main #font-anylise p {
+    main #font-anylise p, main #page-layout p {
       font-size: 2rem;
       padding-bottom: 2rem; }
+  main #page-layout {
+    text-align: justify; }
+    main #page-layout h1 {
+      text-align: center; }
 
 /*# sourceMappingURL=design.css.map */

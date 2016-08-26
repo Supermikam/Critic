@@ -133,5 +133,10 @@ main{
 
 }
 #page-layout{
+  @extend #font-anylise;
+  text-align: justify;
+  h1{
+    text-align: center;
+  }
 }
 }
