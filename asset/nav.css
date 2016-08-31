@@ -22,6 +22,18 @@ main {
     position: relative;
     width: 100%;
     z-index: 1; }
+@keyframes blink-animation {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    opacity: 1.0; } }
+  main .blink {
+    animation-name: blink-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; }
   main .explain {
     position: absolute;
     z-index: 2;
@@ -30,21 +42,53 @@ main {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    overflow: hidden; }
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
+    transition-timing-function: ease-in-out; }
   main .explain:hover {
-    opacity: 1.0; }
+    opacity: 1.0;
+    width: 500px;
+    height: 500px; }
   main #homepage-link {
     left: 27.5%;
     top: 23.5%; }
-  main .inner-content img {
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    width: 80%; }
-  main .inner-content p {
-    font-size: 24px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify; }
+    main #homepage-link img {
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%;
+      border: 20px white solid; }
+  main #navigation-link {
+    left: 53.7%;
+    top: 22%; }
+    main #navigation-link img {
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%; }
+  main #image-link {
+    left: 34%;
+    top: 80%; }
+    main #image-link img {
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%;
+      border: 20px solid white; }
+  main #arrow-link {
+    left: 42.5%;
+    top: 50%; }
+    main #arrow-link img {
+      margin-top: 10%;
+      margin-left: 20%;
+      margin-bottom: 5%;
+      width: 60%; }
+  main .inner-content {
+    display: none; }
+    main .inner-content p {
+      font-size: 24px;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: justify; }
 
 /*# sourceMappingURL=nav.css.map */

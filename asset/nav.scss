@@ -12,6 +12,19 @@ main{
     z-index: 1;
   }
   
+  @keyframes blink-animation{
+    0% {opacity: 1.0;}
+    50% {opacity: 0.4;}
+    100% {opacity: 1.0;}
+  }
+  
+  .blink{
+    animation-name: blink-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
   .explain{
     position: absolute;
     z-index: 2;
@@ -21,24 +34,66 @@ main{
     height: 30px;
     border-radius: 15px;
     overflow: hidden;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
+    transition-timing-function: ease-in-out;
   }
   
   .explain:hover{
     opacity: 1.0;
+    width: 500px;
+    height: 500px;
   }
   
   #homepage-link{
     left: 27.5%;
     top: 23.5%;
+    img{
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%;
+      border: 20px white solid;
+    }
   }
   
-  .inner-content{
+   #navigation-link{
+    left: 53.7%;
+    top: 22%;
     img{
       margin-top: 10%;
       margin-left: 10%;
       margin-bottom: 5%;
       width: 80%;
     }
+  }
+  
+  #image-link{
+    left: 34%;
+    top: 80%;
+    img{
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%;
+      border: 20px solid white;
+    }
+  }
+  
+  #arrow-link{
+    left: 42.5%;
+    top: 50%;
+    img{
+      margin-top: 10%;
+      margin-left: 20%;
+      margin-bottom: 5%;
+      width: 60%;
+    }
+  }
+  
+  
+  
+  .inner-content{
+    display: none;
     
     p{
       font-size: 24px;
@@ -46,7 +101,9 @@ main{
       margin-right: 10%;
       text-align: justify;
     }
+    
   }
+  
   
 
 }
