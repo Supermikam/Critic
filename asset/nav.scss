@@ -1,1 +1,52 @@
 @import 'common';
+$indication-background: #ff9900;
+
+
+main{
+  margin-top: 40px;
+  position: relative;
+  
+  #display{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .explain{
+    position: absolute;
+    z-index: 2;
+    background: $indication-background;
+    opacity: 0.8;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .explain:hover{
+    opacity: 1.0;
+  }
+  
+  #homepage-link{
+    left: 27.5%;
+    top: 23.5%;
+  }
+  
+  .inner-content{
+    img{
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 80%;
+    }
+    
+    p{
+      font-size: 24px;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: justify;
+    }
+  }
+  
+
+}

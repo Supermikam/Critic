@@ -2,7 +2,7 @@
 
 function main(){
   
-  console.log("in main function");
+
   // display color tab
   displayTab("color");
   //register click function
@@ -22,9 +22,8 @@ function displayTab(tabName){
   $("[point-to ="+tabName+"]").addClass("active");
   $("#"+tabName).fadeIn(500);
   if ($(window).scrollTop() > 0) {
-     $('body,html').animate({
-        scrollTop : 0                 
-    }, 500);
+     $('body,html').animate(
+       {scrollTop : 0}, 500);
   }
 }
 

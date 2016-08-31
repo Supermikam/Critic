@@ -15,4 +15,36 @@ main {
 footer {
   text-align: center; }
 
+main {
+  margin-top: 40px;
+  position: relative; }
+  main #display {
+    position: relative;
+    width: 100%;
+    z-index: 1; }
+  main .explain {
+    position: absolute;
+    z-index: 2;
+    background: #ff9900;
+    opacity: 0.8;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    overflow: hidden; }
+  main .explain:hover {
+    opacity: 1.0; }
+  main #homepage-link {
+    left: 27.5%;
+    top: 23.5%; }
+  main .inner-content img {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 80%; }
+  main .inner-content p {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify; }
+
 /*# sourceMappingURL=nav.css.map */
