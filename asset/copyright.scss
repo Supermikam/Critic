@@ -1,1 +1,42 @@
 @import 'common';
+
+main{
+  margin-top: 40px;
+  padding-bottom: 3rem;
+
+  
+  h1{
+    
+  text-align: center;
+   font-size: 72px;
+   color: #fff;
+   font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+   padding-top: 1rem;
+  }
+  
+  p{
+    display: block;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    
+  }
+  
+  img{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  
+  
+  
+}
