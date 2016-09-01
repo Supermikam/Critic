@@ -39,8 +39,8 @@ main {
     text-align: center;
     font-size: 72px;
     color: #fff;
-    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
-    padding-top: 1rem; }
+    padding-top: 4rem;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif"; }
   main h2 {
     margin-top: 0;
     margin-left: 40%;
