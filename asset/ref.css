@@ -15,4 +15,25 @@ main {
 footer {
   text-align: center; }
 
+main {
+  margin-top: 40px;
+  padding-bottom: 3rem;
+  min-height: 800px; }
+  main h1 {
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    font-size: 72px;
+    color: #fff;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    padding-top: 3rem; }
+  main li {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif"; }
+  main a {
+    color: #aaa; }
+
 /*# sourceMappingURL=ref.css.map */
