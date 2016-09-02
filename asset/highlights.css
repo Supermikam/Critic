@@ -15,4 +15,50 @@ main {
 footer {
   text-align: center; }
 
+main {
+  margin-top: 40px;
+  padding-bottom: 3rem; }
+  main h1 {
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 72px;
+    color: #fff;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    padding-top: 6rem; }
+  main h2 {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    font-size: 48px;
+    text-align: center;
+    color: #222;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif"; }
+  main p {
+    margin-left: 10%;
+    margin-bottom: 5rem;
+    margin-right: 10%;
+    max-width: 1000px;
+    font-size: 24px;
+    display: block;
+    text-align: justify;
+    color: #222;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif"; }
+  main .display-1 {
+    font-family: 'Baloo Tamma', cursive;
+    font-size: 20rem;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 0.9; }
+  main .row {
+    margin-bottom: 4rem; }
+  main .block-content {
+    background: white;
+    padding: 3rem; }
+  main img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+    max-width: 800px; }
+
 /*# sourceMappingURL=highlights.css.map */
